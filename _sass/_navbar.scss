@@ -1,0 +1,86 @@
+// Styling for the navbar
+
+#mainNav {
+  text-align: right;
+  text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $dark, 0 0 0.1em $dark;
+  border-bottom: none;
+  background-color: $dark;
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $primary;
+    @include navbar-font;
+  }
+  .navbar-brand {
+    text-transform: uppercase;
+    color: $light;
+    @include logo-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: lighten($light, 30%);
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $light;
+        font-weight: 400;
+        padding: 0.75em 0;
+        text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $secondary, 0 0 0.1em $primary;
+        @include navbar-font;
+        &.active,
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+@media(max-width:992px) {
+  #mainNav {
+    border-bottom: 3px solid $primary;
+  }
+}
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s, background 0.3s, border 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s, background 0.3s, border 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s, background 0.3s, border 0.3s;
+    border-bottom: 3px solid transparent;
+    background-color: transparent;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1em 1em !important;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-color: $primary;
+      background-color: $dark;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+title: SNAP Game Services
+author: C Anthony Risinger
+description: >-
+  SNAP Game Services
+
+assets_path: /assets/
+
+sass:
+  style: compressed

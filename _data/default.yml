@@ -1,0 +1,62 @@
+brand:
+  name: snap.gs
+  intro:
+    heading:
+      - Dedicated Game Servers
+      - Competitive VR Speedball
+  public:
+    heading: Public 24/7 Regional Lobbies
+    subheading: FAST Low-Latency VR Speedball is Real Paintball Experience
+    services:
+      - heading: us/oh/cmh
+        text: |
+          **Columbus, Ohio** (AWS `us-east-2b`)
+          <br>
+          *aka. Dedicated us-east-2 (Ohio)*
+      - heading: us/ca/sjc
+        text: |
+          **San José, California** (AWS `us-west-1b`)
+          <br>
+          *aka. Dedicated us-west-1 (Cali)*
+      - heading: us/co/den
+        text: |
+          **Denver, Colorado** (AWS `us-west-2-den-1a`)
+  private:
+    heading: Private Group Lobbies
+    subheading: Build Comms and Layout Awareness FAST in Low-Latency VR Speedball
+    services:
+      - heading: Steel Yourself Sharp
+        text: |
+          Hone breakouts and callouts. Breakdown scrims and identify lanes.
+          Grind new layouts long before you *or most others* play them first
+          hand. **Know** the layout with confidence and breakout roles
+          instinctually. *Private dedicated lobbies are **coming soon**.*
+      - heading: League Above Competition
+        text: |
+          Meet your next match on neutral ground. No more user-hosted zero-ping
+          lobbies. No more round trips across the pond... *and then some*. Want
+          to smoke the competition? Create real **home** team advantage.
+          *Private dedicated lobbies are **coming soon**.*
+  speedball:
+    heading: Full Immersion or Bust
+    subheading: Paintball in the morning, paintball in the evening, paintball at ...
+    stories:
+      - name: anthonyrisinger
+        img: img/speedball/anthonyrisinger.png
+        text: |
+          *What am I but an **extension** of you?*
+  connect:
+    heading: Want More?
+    subheading: >-
+      SNAP&nbsp;HITTERS get it FIRST&mdash;play Snapshot&nbsp;VR&trade;
+nav:
+  - title: Public Lobbies
+    url: '#public'
+  - title: Private Lobbies
+    url: '#private'
+  - title: 🤍 Speedball
+    url: '#speedball'
+  - title: Connect
+    url: '#connect'
+copyright: |-
+  &copy;&nbsp;**2022** Snap Game Services LLC
