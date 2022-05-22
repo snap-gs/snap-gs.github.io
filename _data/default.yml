@@ -21,8 +21,17 @@ brand:
       - heading: us/co/den
         text: |
           **Denver, Colorado** (AWS `us-west-2-den-1a`)
+      - heading: us/oh/cmh
+        text: |
+          **Columbus, Ohio** (AWS `us-east-2b`)
+      - heading: us/ca/sjc
+        text: |
+          **San José, California** (AWS `us-west-1b`)
+      - heading: us/co/den
+        text: |
+          **Denver, Colorado** (AWS `us-west-2-den-1a`)
   private:
-    heading: Private Group Lobbies
+    heading: Private Dedicated Lobbies
     subheading: Build Comms and Layout Awareness FAST in Low-Latency VR Speedball
     services:
       - heading: Steel Yourself Sharp
