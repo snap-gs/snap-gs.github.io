@@ -10,20 +10,20 @@ brand:
     services:
       - heading: us/oh/cmh
         text: |
-          **Columbus, Ohio** (`us-east-2b`)
+          **Columbus, Ohio** (`us-east-2`)
           <br>
           *aka. Dedicated us-east-2 (Ohio)*
       - heading: us/ca/lax
         text: |
           **Los Angeles, California** (`us-west-2-lax-1`)
           <br>
-          *aka. Dedicated us-west-1 (Cali)*
+          *aka. Dedicated us-west-2 (Cali)*
       - heading: us/co/den
         text: |
           **Denver, Colorado** (`us-west-2-den-1`)
       - heading: us/oh/cmh
         text: |
-          **Columbus, Ohio** (`us-east-2b`)
+          **Columbus, Ohio** (`us-east-2`)
       - heading: us/ca/lax
         text: |
           **Los Angeles, California** (`us-west-2-lax-1`)
