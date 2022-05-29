@@ -13,9 +13,9 @@ brand:
           **Columbus, Ohio** (AWS `us-east-2b`)
           <br>
           *aka. Dedicated us-east-2 (Ohio)*
-      - heading: us/ca/sjc
+      - heading: us/ca/lax
         text: |
-          **San José, California** (AWS `us-west-1b`)
+          **Los Angeles, California** (AWS `us-west-2-lax-1b`)
           <br>
           *aka. Dedicated us-west-1 (Cali)*
       - heading: us/co/den
@@ -24,9 +24,9 @@ brand:
       - heading: us/oh/cmh
         text: |
           **Columbus, Ohio** (AWS `us-east-2b`)
-      - heading: us/ca/sjc
+      - heading: us/ca/lax
         text: |
-          **San José, California** (AWS `us-west-1b`)
+          **Los Angeles, California** (AWS `us-west-2-lax-1b`)
       - heading: us/co/den
         text: |
           **Denver, Colorado** (AWS `us-west-2-den-1a`)
