@@ -10,26 +10,26 @@ brand:
     services:
       - heading: us/oh/cmh
         text: |
-          **Columbus, Ohio** (AWS `us-east-2b`)
+          **Columbus, Ohio** (`us-east-2b`)
           <br>
           *aka. Dedicated us-east-2 (Ohio)*
       - heading: us/ca/lax
         text: |
-          **Los Angeles, California** (AWS `us-west-2-lax-1b`)
+          **Los Angeles, California** (`us-west-2-lax-1`)
           <br>
           *aka. Dedicated us-west-1 (Cali)*
       - heading: us/co/den
         text: |
-          **Denver, Colorado** (AWS `us-west-2-den-1a`)
+          **Denver, Colorado** (`us-west-2-den-1`)
       - heading: us/oh/cmh
         text: |
-          **Columbus, Ohio** (AWS `us-east-2b`)
+          **Columbus, Ohio** (`us-east-2b`)
       - heading: us/ca/lax
         text: |
-          **Los Angeles, California** (AWS `us-west-2-lax-1b`)
+          **Los Angeles, California** (`us-west-2-lax-1`)
       - heading: us/co/den
         text: |
-          **Denver, Colorado** (AWS `us-west-2-den-1a`)
+          **Denver, Colorado** (`us-west-2-den-1`)
   private:
     heading: Private Dedicated Lobbies
     subheading: Build Comms and Layout Awareness FAST in Low-Latency VR Speedball
