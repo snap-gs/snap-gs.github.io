@@ -24,7 +24,7 @@ header.masthead {
       font-size: 37px;
       font-weight: 700;
       @include intro-font;
-      .intro-line-vr, .intro-line-paintball, .intro-line-speedball {
+      .intro-line-vr, .intro-line-competitive, .intro-line-speedball {
         color: $primary;
       }
     }
