@@ -50,9 +50,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 copyright">
-            {{ site.data.default.copyright | markdownify }}
-          </div>
+          <div class="col-md-12 copyright">&copy;&nbsp;<b>{{ "now" | date:"%Y" }}</b>&nbsp;{{ site.data.default.copyright }}</div>
           <!-- <div class="col-md-6">
             <ul class="list-inline quicklinks">
               {%- for ql in site.data.default.quicklinks -%}
